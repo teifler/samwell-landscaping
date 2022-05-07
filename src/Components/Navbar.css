@@ -1,0 +1,278 @@
+.navbar {
+    background: rgb(238, 238, 238);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    opacity: .97;
+    box-shadow: 0px 3px 3px #7e7e7e;
+    padding-right: 150px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-top: -20px;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo:hover {
+    color: #fff;
+  }
+  
+  .fa-typo3 {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 30px;
+    list-style: none;
+    text-align: center;
+    width: 65vw;
+    justify-content: end;
+    padding-right: 20rem;
+    padding-top: 3rem;
+  }
+  
+  .nav-item {
+    height: 45px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+  
+  .nav-links:hover {
+    border-bottom: 4px solid rgb(0, 162, 255);
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+  }
+  
+  .fa-bars {
+    color: black;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+
+  .button {
+    width: 20px;
+  }
+
+  .logo {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  #nav-dropdown {
+    color: black;
+    margin-top: -8px;
+    border: none;
+  }
+
+  #nav-dropdown:hover {
+    color: rgb(0, 162, 255);
+  }
+
+  .nav-drop-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-drop-link:hover {
+    cursor: pointer;
+    color: rgb(0, 162, 255);
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
+  }
+
+  .drop-item:hover {
+    background: none;
+  }
+
+  #drop-nav {
+    border: none; 
+  }
+
+  .nav-drop-li {
+    height: 45px;
+  }
+
+  .nav-num {
+    font-size: 30px;
+    margin-top: 10px;
+    position: absolute;
+    right: 70px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .phone-number {
+    text-decoration: none;
+  }
+
+  .nav-num:hover {
+    cursor: pointer;
+    color: rgb(0, 162, 255);
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
+  }
+  
+  @media screen and (max-width: 1300px) {
+  .nav-menu {
+    padding-right: 15rem;
+  }
+  }
+  
+  @media screen and (max-width: 1215px) {
+    .nav-num {
+    }
+  }
+  
+  @media screen and (max-width: 1245px) {
+    .nav-num {
+    }
+  }
+
+  @media screen and (max-width: 1165px) {
+  .nav-menu {
+    padding-right: 10rem;
+    grid-gap: 20px;
+  }
+  }
+  
+  @media screen and (max-width: 1060px) {
+  .nav-menu {
+    padding-right: 10rem;
+  }
+  }
+
+  @media screen and (max-width: 960px) {
+    .NavbarItems {
+      position: relative;
+    }
+  
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 95vh;
+      position: absolute;
+      top: 95px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+      padding-right: 50px;
+      padding-bottom: 230px;
+      grid-gap: 50px;
+    }
+  
+    .nav-menu.active {
+      background: rgb(238, 238, 238);
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      color: rgb(0, 162, 255);
+      border-bottom: 0px;
+    }
+  
+    .navbar-logo {
+      position: absolute;
+      left: 0;
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: -12px;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+    .nav-links-mobile {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 80%;
+      text-decoration: none;
+      font-size: 1.5rem;
+      background-color: transparent;
+      color: #fff;
+      padding: 14px 20px;
+      border: 1px solid #fff;
+      transition: all 0.3s ease-out;
+
+    }
+  
+    .nav-links-mobile:hover {
+      background: #fff;
+      color: #242424;
+      transition: 250ms;
+    }
+
+    .navbar {
+      height: 95px;
+    }
+
+    .nav-num {
+      visibility: hidden;
+    }
+  }

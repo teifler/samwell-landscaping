@@ -1,0 +1,94 @@
+.wcu-container {
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.wcu-title {
+    font-size: 55px;
+}
+
+.title-underline {
+    width: 150px;
+    margin: 0 auto;
+    padding: 2px;
+    color: rgb(0, 162, 255);
+}
+
+.wcu-txt {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.wcu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.reason-container {
+    width: 80vw;
+    margin: 0 auto;
+    font-size: 20px;
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.reason-container > div {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.wcu-images {
+    width: 190px;
+    padding-right: 40px;
+}
+
+#thinking {
+    width: 175px;
+}
+
+.divider {
+    width: 100% !important;
+}
+
+
+@media screen and (max-width: 940px) {
+    .wcu-title {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .wcu {
+        flex-direction: column;
+    }
+
+    .wcu-images {
+        padding-right: 0px;
+    }
+
+    .reason-container {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wcu-title {
+        font-size: 42px;
+        margin-top: -100px;
+        padding-bottom: 30px;
+    }
+
+    .wcu-images {
+        padding-top: 30px;
+    }
+}
