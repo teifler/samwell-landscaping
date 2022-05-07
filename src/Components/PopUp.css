@@ -1,0 +1,105 @@
+.quote-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 6px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+.input-div {
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+input, label {
+    display:block;
+}
+
+.firstlast {
+    display: flex;
+}
+
+.lbl {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+#email {
+    width: 470px;
+}
+
+#service {
+    width: 470px;
+}
+
+#phone {
+    width: 470px;
+}
+
+#first {
+    width: 226px;
+}
+
+#last {
+    width: 231px;
+}
+
+#description {
+    width: 470px;
+    height: 80px;
+}
+
+.quote-container {
+    margin-top: 0;
+    color: black;
+}
+
+modal-title {
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+#modal-btn {
+    width: 200px;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 390px) {
+    #email {
+        width: 350px;
+    }
+    
+    #service {
+        width: 350px;
+    }
+    
+    #phone {
+        width: 350px;
+    }
+    
+    #first {
+        width: 166px;
+    }
+    
+    #last {
+        width: 171px;
+    }
+    
+    #description {
+        width: 350px;
+        height: 120px;
+    }
+
+    modal-title {
+        margin: 0 auto;
+        font-size: 31px;
+    }
+  }
