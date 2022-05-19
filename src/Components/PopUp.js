@@ -15,7 +15,7 @@ function PopUp() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_jehhnpf", "template_cfojvtk", e.target, "user_JjjokygneXUjqq7WuOENs").then(
+    emailjs.sendForm("service_wtx4icf", "template_u6035no", e.target, "o6uDTYene1eEPCChC").then(
       (result) => {
         console.log(result.text);
       },
@@ -51,7 +51,7 @@ function PopUp() {
               </div>
               <div className="input-div">
                 <label className="lbl">Service</label>
-                <select id="service" className="input" name="service" label="Swedish Cars">
+                <select id="service" className="input" name="service" label="services">
                   <option disabled selected value>
                     {" "}
                     -- Select An Service --{" "}
