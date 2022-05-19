@@ -7,12 +7,12 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function Contact() {
   return (
     <div id="contact">
-      <div id="#" class="whole-contact">
-        <div class="contact-container">
+      <div id="#" className="whole-contact">
+        <div className="contact-container">
           <div className="footer-logo">
             <Link
               to="header"
-              activeClass="active"
+              activeclass="active"
               spy={true}
               smooth={true}
               offset={-60}
@@ -25,7 +25,7 @@ export default function Contact() {
               <Link
                 className="fotf"
                 to="quotes"
-                activeClass="active"
+                activeclass="active"
                 spy={true}
                 smooth={true}
                 offset={-75}
@@ -51,7 +51,7 @@ export default function Contact() {
           <div className="about">
             <p className="contact-head">ABOUT</p>
             <p className="abt-div">
-              Founded in 2019, SamWell's Landscaping & Stonework, LLC, is a family owned and operated commercial &
+              Founded in 2019, SamWell's Landscaping & Stonework, Ltd, is a family owned and operated commercial &
               residential landscape business serving Vancouver Island and surrounding areas.
             </p>
           </div>
@@ -64,11 +64,11 @@ export default function Contact() {
               <p>+1 604-721-9694</p>
             </a>
           </div>
-          <div class="explore">
+          <div className="explore">
             <p className="contact-head">EXPLORE</p>
             <Link
               to="header"
-              activeClass="active"
+              activeclass="active"
               spy={true}
               smooth={true}
               offset={-100}
@@ -79,7 +79,7 @@ export default function Contact() {
             </Link>
             <Link
               to="wcu"
-              activeClass="active"
+              activeclass="active"
               spy={true}
               smooth={true}
               offset={-120}
@@ -90,7 +90,7 @@ export default function Contact() {
             </Link>
             <Link
               to="servicez"
-              activeClass="active"
+              activeclass="active"
               spy={true}
               smooth={true}
               offset={-80}
@@ -101,7 +101,7 @@ export default function Contact() {
             </Link>
             <Link
               to="values"
-              activeClass="active"
+              activeclass="active"
               spy={true}
               smooth={true}
               offset={-50}
@@ -112,7 +112,7 @@ export default function Contact() {
             </Link>
             <Link
               to="quote"
-              activeClass="active"
+              activeclass="active"
               spy={true}
               smooth={true}
               offset={-80}
