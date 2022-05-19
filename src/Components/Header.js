@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
   return (
-    <div id="header" class="header-container">
+    <div id="header" className="header-container">
       <div className="whole-caro">
         <div>
           <Carousel fade={true} controls={false} className="carousel" indicators={false}>
@@ -30,7 +30,7 @@ export default function Header() {
           </Carousel>
         </div>
       </div>
-      <div class="header-wordz">
+      <div className="header-wordz">
         <div className="txt-div">
           <p id="onehead" className="header-txt">
             SamWell's Landscaping
@@ -38,13 +38,13 @@ export default function Header() {
           <p className="header-txt">& Stonework</p>
           <p className="sub-header">SERVING COMOX VALLEY AREA</p>
           <div className="header-buttons">
-            <Link id="buttonid" to="quote" activeClass="active" spy={true} smooth={true} offset={-90} duration={100}>
-              <button type="button" class="btn btn-outline-light">
+            <Link id="buttonid" to="quote" activeclass="active" spy={true} smooth={true} offset={-90} duration={100}>
+              <button type="button" className="btn btn-outline-light">
                 Get A Quote
               </button>
             </Link>
-            <Link id="buttonid" to="servicez" activeClass="active" spy={true} smooth={true} offset={-90} duration={100}>
-              <button type="button" class="btn btn-outline-light">
+            <Link id="buttonid" to="servicez" activeclass="active" spy={true} smooth={true} offset={-90} duration={100}>
+              <button type="button" className="btn btn-outline-light">
                 Our Services
               </button>
             </Link>

@@ -30,11 +30,11 @@ function Navbar() {
   window.addEventListener("resize", showButton);
   return (
     <div>
-      <nav class="navbar">
-        <div class="navbar-container">
+      <nav className="navbar">
+        <div className="navbar-container">
           <Link
             to="header"
-            activeClass="active"
+            activeclass="active"
             spy={true}
             smooth={true}
             offset={-60}
@@ -42,16 +42,16 @@ function Navbar() {
             className="navbar-logo"
             onClick={closeMobileMenu}
           >
-            <img className="logo" src="Images/logo3.png" alt="A-Z Landscape & Maintenance, LLC" />
+            <img className="logo" src="Images/logo3.png" width="100px" alt="Samwell's Landscape & Maintenance, Ltd" />
           </Link>
-          <div class="menu-icon" onClick={handleClick}>
+          <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
                 to="/"
-                activeClass="active"
+                activeclass="active"
                 spy={true}
                 smooth={true}
                 offset={-60}
@@ -65,7 +65,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/about"
-                activeClass="active"
+                activeclass="active"
                 spy={true}
                 smooth={true}
                 offset={-60}
@@ -124,7 +124,7 @@ function Navbar() {
               </Nav>
             </li>
             <li className="nav-item">
-              {/* <ScrollLink to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
+              {/* <ScrollLink to='contact' activeclass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Contact
                             </ScrollLink> */}
               <a className="nav-links" href="/#contact" onClick={closeMobileMenu}>
@@ -133,7 +133,7 @@ function Navbar() {
             </li>
           </ul>
           <a className="nav-num" href="tel:+16047219694">
-            <p class="phone-number" href="tel:16047219694">
+            <p className="phone-number" href="tel:16047219694">
               604-721-9694
             </p>
           </a>
@@ -147,22 +147,22 @@ export default Navbar;
 //     window.addEventListener('resize', showButton)
 //     return (
 //         <div>
-//             <nav class="navbar">
-//                 <div class="navbar-container">
-//                     <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo' onClick={closeMobileMenu}>
-//                         <img className='logo' src="Images/logo3.png" alt="A-Z Landscape & Maintenance, LLC" />
+//             <nav className="navbar">
+//                 <div className="navbar-container">
+//                     <Link to='header' activeclass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo' onClick={closeMobileMenu}>
+//                         <img className='logo' src="Images/logo3.png" alt="A-Z Landscape & Maintenance, Ltd" />
 //                     </Link>
-//                     <div class="menu-icon" onClick={handleClick}>
+//                     <div className="menu-icon" onClick={handleClick}>
 //                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
 //                     </div>
 //                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 //                         <li className='nav-item'>
-//                             <Link to='/' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
+//                             <Link to='/' activeclass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
 //                                 Home
 //                             </Link>
 //                         </li>
 //                         <li className='nav-item'>
-//                             <Link to='/about' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
+//                             <Link to='/about' activeclass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
 //                                 About
 //                             </Link>
 //                         </li>
@@ -214,7 +214,7 @@ export default Navbar;
   </Nav>
 </li>;
 //                         <li className='nav-item'>
-//                             <ScrollLink to='contact' activeClass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
+//                             <ScrollLink to='contact' activeclass="active" spy={true} smooth={true} offset={-70} duration={100} className='nav-links' onClick={closeMobileMenu}>
 //                                 Contact
 //                             </ScrollLink>
 //                         </li>

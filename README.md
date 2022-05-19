@@ -1,6 +1,6 @@
 # SamWell's Landscaping & Stonework
 
-Samwel Landscapes LLC, is a family owned and operated commercial & residential landscape business serving Comox Area on Vancouver Island (Vancouver, BC) and surrounding areas.
+Samwel Landscapes Ltd, is a family owned and operated commercial & residential landscape business serving Comox Area on Vancouver Island (Vancouver, BC) and surrounding areas.
 
 ## [Live site](samwell-landscaping.com)
 

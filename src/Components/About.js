@@ -6,22 +6,22 @@ export default function About() {
     <div className="about-container">
       <div className="landscapehead"></div>
       <p className="landscape-txt">ABOUT</p>
-      <div class="about-comp">
+      <div className="about-comp">
         <p id="first-abt-head" className="abt-head">
           ABOUT COMPANY
         </p>
         <hr className="divider" />
         <p className="first-p">
-          Founded in 2019, Samwell Landscaping & Stonework, LLC, is a family owned and operated commercial & residential
-          landscape business serving central Vancouver Island (Comox) and surrounding areas.
+          Samwell's Landscaping & Stonework is providing services to homes and businesses around the Vancouver area in
+          art of landscaping and hardscaping. From the smallest job to the most elaborate landscape, we give special
+          attention to every customer to help design outdoor space and ensure that your project is a complete success.
         </p>
         <p>
-          Samwell strives to design, build, and maintain quality projects and services throughout our community,
-          treating the customers we work with as we would want to be treated, leaving quality service and respect at
-          their homes and businesses for years to come.
+          Our team is dynamic, creative and maintain high quality standards involving professionalism, courtesy and
+          pride in their strong expertise
         </p>
       </div>
-      <div class="about-owner">
+      <div className="about-owner">
         <p className="abt-head">ABOUT OWNER</p>
         <hr className="divider" />
         <p className="first-p">
